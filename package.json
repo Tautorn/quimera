@@ -1,20 +1,22 @@
 {
   "name": "quimera",
-  "version": "1.0.0",
-  "engines": {
-    "node": "8.x"
-  },
-  "description": "cora",
+  "version": "0.1.0",
+  "description": "Monorepo",
   "main": "index.js",
   "scripts": {
-    "star-cora": "node commands/start/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://tautorn@bitbucket.org/tautorn/corahq.git"
+    "url": "git+https://github.com/Tautorn/quimera.git"
   },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/tautorn/corahq#readme",
+  "keywords": [
+    "monorepo"
+  ],
+  "author": "Bruno Carneiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tautorn/quimera/issues"
+  },
+  "homepage": "https://github.com/Tautorn/quimera#readme"
 }

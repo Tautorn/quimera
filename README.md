@@ -1,2 +1,1 @@
 # quimera
-mono-repo
