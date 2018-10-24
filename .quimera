@@ -1,0 +1,36 @@
+{
+
+  "path": "packages",
+
+  "projects": [
+    "api",
+    "bot",
+    "design-system",
+    "doc",
+    "ui",
+    "widget",
+    "sdk-ui-static"
+  ],
+
+  "start": {
+    "default": [
+      "cora-api",
+      "cora-bot",
+      "cora-ui"
+    ]
+  },
+
+  "terminal": {
+    "darwin": "cmd",
+    "linux": "gnome-terminal -x bash -c",
+    "win32": "start cmd.exe /k"
+  },
+
+  "ignore": [
+    ".git",
+    ".vagrant",
+    ".vscode",
+    "node_modules"
+  ]
+
+}
