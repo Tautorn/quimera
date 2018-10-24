@@ -14,9 +14,9 @@
 
   "start": {
     "default": [
-      "cora-api",
-      "cora-bot",
-      "cora-ui"
+      "api",
+      "bot",
+      "ui"
     ]
   },
 

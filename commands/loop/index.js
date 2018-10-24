@@ -1,6 +1,6 @@
 "use strict"
 
-const getCoraFile = require('../get-cora-file')
+const getQuimeraFile = require('../get-quimera-file')
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
 const chalk = require('chalk')
@@ -13,7 +13,7 @@ async function trigger({ command, project }) {
 
 function Loop({ projects, command }) {
 
-  const path = getCoraFile({ confirmInMetaRepo: true }).path
+  const path = getQuimeraFile({ confirmInMetaRepo: true }).path
 
   projects.map( async project => {
 

@@ -1,18 +1,18 @@
 "use strict"
 
-const getCoraFile = require('../get-cora-file')
-const loopCora = require('../loop')
+const getQuimeraFile = require('../get-quimera-file')
+const loopQuimera = require('../loop')
 const chalk = require('chalk')
 
 const log = console.log
 
 const Install = () => {
-  const cora = getCoraFile({ confirmInMetaRepo: true })
-  const projects = cora.projects
+  const quimera = getQuimeraFile({ confirmInMetaRepo: true })
+  const projects = quimera.projects
 
   log(chalk.red(projects))
 
-  loopCora({
+  loopQuimera({
     projects,
     command: 'npm install'
   })

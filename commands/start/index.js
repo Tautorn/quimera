@@ -1,6 +1,6 @@
 "use strict"
 
-const getCoraFile = require('../get-cora-file')
+const getQuimeraFile = require('../get-quimera-file')
 const loopCora = require('../loop')
 const terminal = require('../terminal')
 const chalk = require('chalk')
@@ -8,8 +8,8 @@ const chalk = require('chalk')
 const log = console.log
 
 const Start = (key) => {
-  const cora = getCoraFile({ confirmInMetaRepo: true })
-  const projects = cora.start[key || 'default']
+  const quimera = getQuimeraFile({ confirmInMetaRepo: true })
+  const projects = quimera.start[key || 'default']
 
   log(chalk.red(projects))
 
