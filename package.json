@@ -1,0 +1,20 @@
+{
+  "name": "corahq",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.x"
+  },
+  "description": "cora",
+  "main": "index.js",
+  "scripts": {
+    "star-cora": "node commands/start/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tautorn@bitbucket.org/tautorn/corahq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/tautorn/corahq#readme",
+}
