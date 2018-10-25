@@ -1,13 +1,16 @@
 {
-  "name": "get-quimera-file",
+  "name": "@quimera/get-quimera-file",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Bruno Carneiro",
+    "email": "brunocarneirofs@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "debug": "^4.1.0",
     "findup-sync": "^2.0.0"

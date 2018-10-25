@@ -1,8 +1,11 @@
 {
   "name": "quimera",
   "version": "0.1.0",
-  "description": "Monorepo",
-  "main": "index.js",
+  "description": "Tool for create and manager monorepo. ",
+  "main": "./bin/quimera",
+  "bin": {
+    "quimera": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,12 +14,23 @@
     "url": "git+https://github.com/Tautorn/quimera.git"
   },
   "keywords": [
-    "monorepo"
+    "quimera",
+    "monorepo",
+    "repo",
+    "repository",
+    "node",
+    "git"
   ],
-  "author": "Bruno Carneiro",
+  "author": {
+    "name": "Bruno Carneiro",
+    "email": "brunocarneirofs@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Tautorn/quimera/issues"
   },
-  "homepage": "https://github.com/Tautorn/quimera#readme"
+  "homepage": "https://github.com/Tautorn/quimera#readme",
+  "engines": {
+    "node": ">= 6.9.4"
+  }
 }

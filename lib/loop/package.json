@@ -1,16 +1,18 @@
 {
-  "name": "loop",
+  "name": "@quimera/loop",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Bruno Carneiro",
+    "email": "brunocarneirofs@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
-    "debug": "^4.1.0",
-    "file-system": "^2.2.2"
+    "debug": "^4.1.0"
   }
 }
